@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37806.7 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carwash_T3", "Carwash_T3\Carwash_T3.csproj", "{96DAB087-3883-4301-8E1A-2E834B101851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaIdentidad", "CapaIdentidad\CapaIdentidad.csproj", "{522790C8-0C70-44EF-9CFF-4387A8AA2B51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96DAB087-3883-4301-8E1A-2E834B101851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DAB087-3883-4301-8E1A-2E834B101851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DAB087-3883-4301-8E1A-2E834B101851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DAB087-3883-4301-8E1A-2E834B101851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522790C8-0C70-44EF-9CFF-4387A8AA2B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522790C8-0C70-44EF-9CFF-4387A8AA2B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522790C8-0C70-44EF-9CFF-4387A8AA2B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522790C8-0C70-44EF-9CFF-4387A8AA2B51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D020406-607E-4902-BA95-B6DDD8A37771}
+	EndGlobalSection
+EndGlobal
