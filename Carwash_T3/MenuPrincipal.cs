@@ -35,5 +35,24 @@ namespace Carwash_T3
         {
 
         }
+
+        private void MenuPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenedorEmpleado frm = new MantenedorEmpleado();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenedorProveedor frm = new MantenedorProveedor();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
