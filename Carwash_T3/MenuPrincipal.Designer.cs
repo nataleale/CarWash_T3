@@ -38,6 +38,8 @@
             this.materialesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.métodosDePagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salir = new System.Windows.Forms.ToolStripMenuItem();
+            this.lavadoVehiculoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.diagnosticoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,6 +59,9 @@
             // 
             // coreToolStripMenuItem
             // 
+            this.coreToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lavadoVehiculoToolStripMenuItem,
+            this.diagnosticoToolStripMenuItem});
             this.coreToolStripMenuItem.Name = "coreToolStripMenuItem";
             this.coreToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.coreToolStripMenuItem.Text = "Core";
@@ -121,6 +126,19 @@
             this.salir.Text = "Salir";
             this.salir.Click += new System.EventHandler(this.salir_Click);
             // 
+            // lavadoVehiculoToolStripMenuItem
+            // 
+            this.lavadoVehiculoToolStripMenuItem.Name = "lavadoVehiculoToolStripMenuItem";
+            this.lavadoVehiculoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lavadoVehiculoToolStripMenuItem.Text = "Lavado Vehiculo";
+            this.lavadoVehiculoToolStripMenuItem.Click += new System.EventHandler(this.lavadoVehiculoToolStripMenuItem_Click);
+            // 
+            // diagnosticoToolStripMenuItem
+            // 
+            this.diagnosticoToolStripMenuItem.Name = "diagnosticoToolStripMenuItem";
+            this.diagnosticoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.diagnosticoToolStripMenuItem.Text = "Diagnostico";
+            // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -150,6 +168,8 @@
         private System.Windows.Forms.ToolStripMenuItem proveedoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem materialesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem métodosDePagoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lavadoVehiculoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem diagnosticoToolStripMenuItem;
     }
 }
 
