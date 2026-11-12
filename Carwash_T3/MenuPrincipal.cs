@@ -54,5 +54,10 @@ namespace Carwash_T3
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void lavadoVehiculoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

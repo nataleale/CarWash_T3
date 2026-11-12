@@ -131,6 +131,7 @@
             this.lavadoVehiculoToolStripMenuItem.Name = "lavadoVehiculoToolStripMenuItem";
             this.lavadoVehiculoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.lavadoVehiculoToolStripMenuItem.Text = "Lavado Vehiculo";
+            this.lavadoVehiculoToolStripMenuItem.Click += new System.EventHandler(this.lavadoVehiculoToolStripMenuItem_Click);
             // 
             // diagnosticoToolStripMenuItem
             // 
