@@ -30,13 +30,13 @@
         {
             this.dgvMetodoPago = new System.Windows.Forms.DataGridView();
             this.grpDatos = new System.Windows.Forms.GroupBox();
-            this.lblCodigo = new System.Windows.Forms.Label();
-            this.txtIdMetodoPago = new System.Windows.Forms.TextBox();
-            this.lblNombre = new System.Windows.Forms.Label();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.lblDescripcion = new System.Windows.Forms.Label();
-            this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.chkEstadoMetodoPago = new System.Windows.Forms.CheckBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.lblDescripcion = new System.Windows.Forms.Label();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.txtIdMetodoPago = new System.Windows.Forms.TextBox();
+            this.lblCodigo = new System.Windows.Forms.Label();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
@@ -79,57 +79,7 @@
             this.grpDatos.TabIndex = 1;
             this.grpDatos.TabStop = false;
             this.grpDatos.Text = "Datos de MetodoPago";
-            // 
-            // lblCodigo
-            // 
-            this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Location = new System.Drawing.Point(15, 28);
-            this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(40, 13);
-            this.lblCodigo.TabIndex = 0;
-            this.lblCodigo.Text = "Código";
-            // 
-            // txtIdMetodoPago
-            // 
-            this.txtIdMetodoPago.Location = new System.Drawing.Point(155, 25);
-            this.txtIdMetodoPago.Name = "txtIdMetodoPago";
-            this.txtIdMetodoPago.ReadOnly = true;
-            this.txtIdMetodoPago.Size = new System.Drawing.Size(230, 20);
-            this.txtIdMetodoPago.TabIndex = 1;
-            // 
-            // lblNombre
-            // 
-            this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(445, 28);
-            this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(51, 13);
-            this.lblNombre.TabIndex = 2;
-            this.lblNombre.Text = "Nombre *";
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.Location = new System.Drawing.Point(585, 25);
-            this.txtNombre.MaxLength = 50;
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(230, 20);
-            this.txtNombre.TabIndex = 3;
-            // 
-            // lblDescripcion
-            // 
-            this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(15, 62);
-            this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(63, 13);
-            this.lblDescripcion.TabIndex = 4;
-            this.lblDescripcion.Text = "Descripción";
-            // 
-            // txtDescripcion
-            // 
-            this.txtDescripcion.Location = new System.Drawing.Point(155, 59);
-            this.txtDescripcion.MaxLength = 100;
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(230, 20);
-            this.txtDescripcion.TabIndex = 5;
+            this.grpDatos.Enter += new System.EventHandler(this.grpDatos_Enter);
             // 
             // chkEstadoMetodoPago
             // 
@@ -142,6 +92,57 @@
             this.chkEstadoMetodoPago.TabIndex = 6;
             this.chkEstadoMetodoPago.Text = "Activo";
             this.chkEstadoMetodoPago.UseVisualStyleBackColor = true;
+            // 
+            // txtDescripcion
+            // 
+            this.txtDescripcion.Location = new System.Drawing.Point(155, 59);
+            this.txtDescripcion.MaxLength = 100;
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(230, 20);
+            this.txtDescripcion.TabIndex = 5;
+            // 
+            // lblDescripcion
+            // 
+            this.lblDescripcion.AutoSize = true;
+            this.lblDescripcion.Location = new System.Drawing.Point(15, 62);
+            this.lblDescripcion.Name = "lblDescripcion";
+            this.lblDescripcion.Size = new System.Drawing.Size(63, 13);
+            this.lblDescripcion.TabIndex = 4;
+            this.lblDescripcion.Text = "Descripción";
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(585, 25);
+            this.txtNombre.MaxLength = 50;
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(230, 20);
+            this.txtNombre.TabIndex = 3;
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(445, 28);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(51, 13);
+            this.lblNombre.TabIndex = 2;
+            this.lblNombre.Text = "Nombre *";
+            // 
+            // txtIdMetodoPago
+            // 
+            this.txtIdMetodoPago.Location = new System.Drawing.Point(155, 25);
+            this.txtIdMetodoPago.Name = "txtIdMetodoPago";
+            this.txtIdMetodoPago.ReadOnly = true;
+            this.txtIdMetodoPago.Size = new System.Drawing.Size(230, 20);
+            this.txtIdMetodoPago.TabIndex = 1;
+            // 
+            // lblCodigo
+            // 
+            this.lblCodigo.AutoSize = true;
+            this.lblCodigo.Location = new System.Drawing.Point(15, 28);
+            this.lblCodigo.Name = "lblCodigo";
+            this.lblCodigo.Size = new System.Drawing.Size(40, 13);
+            this.lblCodigo.TabIndex = 0;
+            this.lblCodigo.Text = "Código";
             // 
             // btnNuevo
             // 

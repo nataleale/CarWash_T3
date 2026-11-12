@@ -238,5 +238,10 @@ namespace Carwash_T3
         {
             Close();
         }
+
+        private void grpDatos_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

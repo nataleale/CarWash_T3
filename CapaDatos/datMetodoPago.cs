@@ -9,7 +9,7 @@ namespace CapaDatos
     public class datMetodoPago
     {
         #region singleton
-        // Patrón Singleton
+        
         private static readonly datMetodoPago _instancia = new datMetodoPago();
         public static datMetodoPago Instancia
         {
@@ -44,7 +44,7 @@ namespace CapaDatos
             return lista;
         }
 
-        ////////////////////// Insertar
+
         public Boolean InsertarMetodoPago(entMetodoPago o)
         {
             using (SqlConnection cn = Conexion.Instancia.Conectar())
@@ -59,7 +59,7 @@ namespace CapaDatos
             }
         }
 
-        ////////////////////// Editar
+ 
         public Boolean EditarMetodoPago(entMetodoPago o)
         {
             using (SqlConnection cn = Conexion.Instancia.Conectar())
@@ -75,7 +75,7 @@ namespace CapaDatos
             }
         }
 
-        ////////////////////// Deshabilitar (eliminado lógico)
+
         public Boolean DeshabilitarMetodoPago(entMetodoPago o)
         {
             using (SqlConnection cn = Conexion.Instancia.Conectar())

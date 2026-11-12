@@ -13,10 +13,9 @@ namespace CapaDatos
     {
 
         #region sigleton
-        //Patron Singleton
-        // Variable estática para la instancia
+
         private static readonly datMaterial _instancia = new datMaterial();
-        //privado para evitar la instanciación directa
+
         public static datMaterial Instancia
         {
             get
@@ -27,7 +26,7 @@ namespace CapaDatos
         #endregion singleton
 
         #region metodos
-        ////////////////////// Listado
+        
         public List<entMaterial> ListarMaterial()
         {
             List<entMaterial> lista = new List<entMaterial>();
@@ -54,7 +53,7 @@ namespace CapaDatos
             return lista;
         }
 
-        ////////////////////// Insertar
+        
         public Boolean InsertarMaterial(entMaterial o)
         {
             using (SqlConnection cn = Conexion.Instancia.Conectar())
@@ -71,7 +70,7 @@ namespace CapaDatos
             }
         }
 
-        ////////////////////// Editar
+        
         public Boolean EditarMaterial(entMaterial o)
         {
             using (SqlConnection cn = Conexion.Instancia.Conectar())
@@ -89,7 +88,7 @@ namespace CapaDatos
             }
         }
 
-        ////////////////////// Deshabilitar (eliminado lógico)
+       
         public Boolean DeshabilitarMaterial(entMaterial o)
         {
             using (SqlConnection cn = Conexion.Instancia.Conectar())

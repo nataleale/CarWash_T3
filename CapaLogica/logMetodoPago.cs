@@ -11,7 +11,7 @@ namespace CapaLogica
     public class logMetodoPago
     {
         #region singleton
-        // Patrón Singleton
+        
         private static readonly logMetodoPago _instancia = new logMetodoPago();
         public static logMetodoPago Instancia
         {
@@ -20,22 +20,22 @@ namespace CapaLogica
         #endregion singleton
 
         #region metodos
-        /// listado
+        
         public List<entMetodoPago> ListarMetodoPago()
         {
             return datMetodoPago.Instancia.ListarMetodoPago();
         }
-        /// inserta
+        
         public Boolean InsertaMetodoPago(entMetodoPago o)
         {
             return datMetodoPago.Instancia.InsertarMetodoPago(o);
         }
-        /// edita
+        
         public Boolean EditaMetodoPago(entMetodoPago o)
         {
             return datMetodoPago.Instancia.EditarMetodoPago(o);
         }
-        /// deshabilita
+        
         public Boolean DeshabilitarMetodoPago(entMetodoPago o)
         {
             return datMetodoPago.Instancia.DeshabilitarMetodoPago(o);

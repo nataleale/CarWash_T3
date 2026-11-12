@@ -17,10 +17,9 @@ namespace Carwash_T3
         public MantenedorMaterial()
         {
             InitializeComponent();
-            // Actualizado y sincronizado por Miguel
+           
         }
 
-        // Método para cargar y listar los materiales en el DataGridView
         private void ListarMateriales()
         {
             try
@@ -35,7 +34,7 @@ namespace Carwash_T3
 
         private void MantenedorMaterial_Load(object sender, EventArgs e)
         {
-            // Carga los datos automáticamente al abrir el formulario
+            
             ListarMateriales();
         }
 
@@ -43,7 +42,7 @@ namespace Carwash_T3
         {
             try
             {
-                // 1. Validar que los campos obligatorios no estén vacíos
+                
                 if (string.IsNullOrWhiteSpace(txtDescripcion.Text) ||
                     string.IsNullOrWhiteSpace(txtStock.Text) ||
                     string.IsNullOrWhiteSpace(txtPrecio.Text))
@@ -52,22 +51,22 @@ namespace Carwash_T3
                     return;
                 }
 
-                // 2. Crear la entidad y asignar los valores de las cajas de texto
+                
                 entMaterial objMaterial = new entMaterial();
                 objMaterial.descripcion = txtDescripcion.Text.Trim();
                 objMaterial.stock = decimal.Parse(txtStock.Text.Trim());
                 objMaterial.precio = decimal.Parse(txtPrecio.Text.Trim());
                 objMaterial.fecRegMaterial = DateTime.Now;
-                objMaterial.estMaterial = true; // Activo por defecto
+                objMaterial.estMaterial = true; 
 
-                // 3. Enviar a la capa lógica usando el patrón Singleton
+                
                 bool resultado = logMaterial.Instancia.InsertaMaterial(objMaterial);
 
                 if (resultado)
                 {
                     MessageBox.Show("Material registrado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    ListarMateriales(); // Actualiza la tabla automáticamente
-                    LimpiarCampos();    // Limpia las cajas de texto
+                    ListarMateriales(); 
+                    LimpiarCampos();    
                 }
                 else
                 {
@@ -89,7 +88,7 @@ namespace Carwash_T3
             LimpiarCampos();
         }
 
-        // Método auxiliar para limpiar las cajas de texto
+        
         private void LimpiarCampos()
         {
             txtIdMaterial.Clear();

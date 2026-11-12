@@ -260,5 +260,10 @@ namespace Carwash_T3
 
             return true;
         }
+
+        private void MantenedorCliente_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
