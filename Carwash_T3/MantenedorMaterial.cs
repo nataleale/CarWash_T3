@@ -15,7 +15,7 @@ namespace Carwash_T3
         public MantenedorMaterial()
         {
             InitializeComponent();
-            // Actualizado y sincronizado por Ever Fernande
+            // Actualizado y sincronizado por Ever Fernandez
         }
     }
 }
