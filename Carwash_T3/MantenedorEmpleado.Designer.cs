@@ -52,6 +52,7 @@
             this.dgvEmpleado = new System.Windows.Forms.DataGridView();
             this.cboCargo = new System.Windows.Forms.ComboBox();
             this.grpDatos = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleado)).BeginInit();
             this.grpDatos.SuspendLayout();
             this.SuspendLayout();
@@ -274,6 +275,7 @@
             // 
             // grpDatos
             // 
+            this.grpDatos.Controls.Add(this.textBox1);
             this.grpDatos.Controls.Add(this.cboCargo);
             this.grpDatos.Controls.Add(this.label7);
             this.grpDatos.Controls.Add(this.txtIdEmpleado);
@@ -296,6 +298,13 @@
             this.grpDatos.TabIndex = 31;
             this.grpDatos.TabStop = false;
             this.grpDatos.Text = "Datos Empleado";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(235, 172);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 31;
             // 
             // MantenedorEmpleado
             // 
@@ -345,5 +354,6 @@
         private System.Windows.Forms.DataGridView dgvEmpleado;
         private System.Windows.Forms.ComboBox cboCargo;
         private System.Windows.Forms.GroupBox grpDatos;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
