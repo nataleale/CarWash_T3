@@ -96,8 +96,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CoreDiagnostico.resx">
-      <DependentUpon>CoreDiagnostico.cs</DependentUpon>
+    <EmbeddedResource Include="CoreLavadoAuto.resx">
+      <DependentUpon>CoreLavadoAuto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorCliente.resx">
       <DependentUpon>MantenedorCliente.cs</DependentUpon>

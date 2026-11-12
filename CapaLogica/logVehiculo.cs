@@ -1,4 +1,7 @@
-﻿using System;
+﻿using CapaDatos;
+using CapaEntidad;
+using CapaIdentidad;
+using System;
 using System.Collections.Generic;
 using CapaEntidad;
 using CapaDatos;
