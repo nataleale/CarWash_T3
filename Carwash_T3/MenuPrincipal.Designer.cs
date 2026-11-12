@@ -124,8 +124,9 @@
             // materialesToolStripMenuItem
             // 
             this.materialesToolStripMenuItem.Name = "materialesToolStripMenuItem";
-            this.materialesToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.materialesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.materialesToolStripMenuItem.Text = "Materiales";
+            this.materialesToolStripMenuItem.Click += new System.EventHandler(this.materialesToolStripMenuItem_Click);
             // 
             // métodosDePagoToolStripMenuItem
             // 

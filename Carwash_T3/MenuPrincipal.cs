@@ -79,5 +79,12 @@ namespace Carwash_T3
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void materialesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenedorMaterial frm = new MantenedorMaterial();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
