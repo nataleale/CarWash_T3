@@ -54,5 +54,12 @@ namespace Carwash_T3
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void métodosDePagoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenedorMetodoPago frm = new MantenedorMetodoPago();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

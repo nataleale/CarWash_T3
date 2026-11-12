@@ -113,6 +113,7 @@
             this.métodosDePagoToolStripMenuItem.Name = "métodosDePagoToolStripMenuItem";
             this.métodosDePagoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.métodosDePagoToolStripMenuItem.Text = "Métodos de pago";
+            this.métodosDePagoToolStripMenuItem.Click += new System.EventHandler(this.métodosDePagoToolStripMenuItem_Click);
             // 
             // salir
             // 
