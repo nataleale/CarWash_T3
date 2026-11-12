@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CapaIdentidad
 {
-    internal class entMaterial
+    public class entMaterial
     {
+        public int idMaterial { get; set; }
+        public string descripcion { get; set; }
+        public decimal stock { get; set; }
+        public decimal precio { get; set; }
+        public DateTime fecRegMaterial { get; set; }
+        public bool estMaterial { get; set; }
     }
 }
