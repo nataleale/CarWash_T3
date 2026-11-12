@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CapaEntidad;
 
 namespace CapaEntidad
 {
@@ -17,6 +18,6 @@ namespace CapaEntidad
         public string tipoVehiculo { get; set; }
         public int idCliente { get; set; }
         public bool estVehiculo { get; set; }
-        public string clienteNombre { get; set; }   
+        public string clienteNombre { get; set; }
     }
 }

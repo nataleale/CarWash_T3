@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CoreLavadoAuto.cs">
+    <Compile Include="CoreDiagnostico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CoreLavadoAuto.Designer.cs">
-      <DependentUpon>CoreLavadoAuto.cs</DependentUpon>
+    <Compile Include="CoreDiagnostico.Designer.cs">
+      <DependentUpon>CoreDiagnostico.cs</DependentUpon>
     </Compile>
     <Compile Include="MantenedorCliente.cs">
       <SubType>Form</SubType>
@@ -104,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorEmpleado.resx">
       <DependentUpon>MantenedorEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorVehiculo.resx">
+      <DependentUpon>MantenedorVehiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>

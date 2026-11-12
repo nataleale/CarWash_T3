@@ -3,9 +3,8 @@ using CapaEntidad;
 using CapaIdentidad;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CapaEntidad;
+using CapaDatos;
 
 namespace CapaLogica
 {
@@ -44,3 +43,4 @@ namespace CapaLogica
         #endregion metodos
     }
 }
+
