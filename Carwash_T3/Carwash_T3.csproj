@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoreDiagnostico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoreDiagnostico.Designer.cs">
+      <DependentUpon>CoreDiagnostico.cs</DependentUpon>
+    </Compile>
     <Compile Include="CoreLavadoAuto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CoreDiagnostico.resx">
+      <DependentUpon>CoreDiagnostico.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CoreLavadoAuto.resx">
       <DependentUpon>CoreLavadoAuto.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorMaterial.resx">
       <DependentUpon>MantenedorMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorVehiculo.resx">
+      <DependentUpon>MantenedorVehiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
