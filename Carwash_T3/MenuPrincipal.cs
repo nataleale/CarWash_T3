@@ -33,7 +33,9 @@ namespace Carwash_T3
 
         private void vehículosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            MantenedorVehiculo frm = new MantenedorVehiculo();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }
