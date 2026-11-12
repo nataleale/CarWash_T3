@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CapaIdentidad
 {
-    internal class entMetodoPago
+    public class entMetodoPago
     {
+        public int idMetodoPago { get; set; }
+        public string nombre { get; set; }
+        public string descripcion { get; set; }
+        public bool estMetodoPago { get; set; }
     }
 }
