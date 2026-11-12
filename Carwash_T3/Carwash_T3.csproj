@@ -108,6 +108,9 @@
     <EmbeddedResource Include="MantenedorMaterial.resx">
       <DependentUpon>MantenedorMaterial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorVehiculo.resx">
+      <DependentUpon>MantenedorVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
