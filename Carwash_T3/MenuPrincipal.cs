@@ -67,8 +67,17 @@ namespace Carwash_T3
 
         private void lavadoVehiculoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            CoreLavadoAuto frm = new CoreLavadoAuto();  
+            frm.MdiParent = this;
+            frm.Show();
 
+        }
 
+        private void diagnosticoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CoreDiagnostico frm = new CoreDiagnostico();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }

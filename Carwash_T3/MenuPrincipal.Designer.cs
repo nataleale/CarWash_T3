@@ -30,6 +30,8 @@
         {
             this.menu = new System.Windows.Forms.MenuStrip();
             this.coreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lavadoVehiculoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.diagnosticoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vehículosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,8 +40,6 @@
             this.materialesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.métodosDePagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salir = new System.Windows.Forms.ToolStripMenuItem();
-            this.lavadoVehiculoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.diagnosticoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,6 +66,20 @@
             this.coreToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.coreToolStripMenuItem.Text = "Core";
             // 
+            // lavadoVehiculoToolStripMenuItem
+            // 
+            this.lavadoVehiculoToolStripMenuItem.Name = "lavadoVehiculoToolStripMenuItem";
+            this.lavadoVehiculoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lavadoVehiculoToolStripMenuItem.Text = "Lavado Vehiculo";
+            this.lavadoVehiculoToolStripMenuItem.Click += new System.EventHandler(this.lavadoVehiculoToolStripMenuItem_Click);
+            // 
+            // diagnosticoToolStripMenuItem
+            // 
+            this.diagnosticoToolStripMenuItem.Name = "diagnosticoToolStripMenuItem";
+            this.diagnosticoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.diagnosticoToolStripMenuItem.Text = "Diagnostico";
+            this.diagnosticoToolStripMenuItem.Click += new System.EventHandler(this.diagnosticoToolStripMenuItem_Click);
+            // 
             // mantenedoresToolStripMenuItem
             // 
             this.mantenedoresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -82,41 +96,41 @@
             // clientesToolStripMenuItem
             // 
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.clientesToolStripMenuItem.Text = "Clientes";
             this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
             // 
             // vehículosToolStripMenuItem
             // 
             this.vehículosToolStripMenuItem.Name = "vehículosToolStripMenuItem";
-            this.vehículosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.vehículosToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.vehículosToolStripMenuItem.Text = "Vehículos";
             this.vehículosToolStripMenuItem.Click += new System.EventHandler(this.vehículosToolStripMenuItem_Click);
             // 
             // empleadosToolStripMenuItem
             // 
             this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.empleadosToolStripMenuItem.Text = "Empleados";
             this.empleadosToolStripMenuItem.Click += new System.EventHandler(this.empleadosToolStripMenuItem_Click);
             // 
             // proveedoresToolStripMenuItem
             // 
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.proveedoresToolStripMenuItem.Text = "Proveedores";
             this.proveedoresToolStripMenuItem.Click += new System.EventHandler(this.proveedoresToolStripMenuItem_Click);
             // 
             // materialesToolStripMenuItem
             // 
             this.materialesToolStripMenuItem.Name = "materialesToolStripMenuItem";
-            this.materialesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.materialesToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.materialesToolStripMenuItem.Text = "Materiales";
             // 
             // métodosDePagoToolStripMenuItem
             // 
             this.métodosDePagoToolStripMenuItem.Name = "métodosDePagoToolStripMenuItem";
-            this.métodosDePagoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.métodosDePagoToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.métodosDePagoToolStripMenuItem.Text = "Métodos de pago";
             this.métodosDePagoToolStripMenuItem.Click += new System.EventHandler(this.métodosDePagoToolStripMenuItem_Click);
             // 
@@ -126,19 +140,6 @@
             this.salir.Size = new System.Drawing.Size(41, 20);
             this.salir.Text = "Salir";
             this.salir.Click += new System.EventHandler(this.salir_Click);
-            // 
-            // lavadoVehiculoToolStripMenuItem
-            // 
-            this.lavadoVehiculoToolStripMenuItem.Name = "lavadoVehiculoToolStripMenuItem";
-            this.lavadoVehiculoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.lavadoVehiculoToolStripMenuItem.Text = "Lavado Vehiculo";
-            this.lavadoVehiculoToolStripMenuItem.Click += new System.EventHandler(this.lavadoVehiculoToolStripMenuItem_Click);
-            // 
-            // diagnosticoToolStripMenuItem
-            // 
-            this.diagnosticoToolStripMenuItem.Name = "diagnosticoToolStripMenuItem";
-            this.diagnosticoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.diagnosticoToolStripMenuItem.Text = "Diagnostico";
             // 
             // MenuPrincipal
             // 
